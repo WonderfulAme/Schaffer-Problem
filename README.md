@@ -4,7 +4,7 @@
 **Optimization II, School of Applied Sciences and Engineering, EAFIT** 
 
 ## Abstract
-*The purpose of this article is to explore and implement various multiobjective optimization techniques within the context of the popular game Stardew Valley. By applying these advanced optimization methods, the study aims to enhance in-game decision-making processes, taking into account the player's preferred game mode.*
+*This article explores different multiobjective optimization techniques using the Schaffer problem as a case study. We implement methods like weighted sums, $\epsilon$-restriction, and the Min-Max method to see how well they balance conflicting goals while working within specific limits. By examining the Pareto optimal solutions, we highlight the effectiveness of these algorithms in making informed decisions.*
 
 ## Introduction
 The Schaffer problem, proposed in [Schaffer1984](https://www.example.com) and given in the following equation, is a multiobjective optimization problem with two objective functions to minimize, $f_1(x)$ and $f_2(x)$, subject to a single constraint $-A\leq x\leq A$, with $A\in [10, 10^5]$.
